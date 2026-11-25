@@ -34,6 +34,7 @@ def write_entry(text):
 
 
 def main():
+    # Validate first: the sealed gate rejects anything but one plain word.
     write_entry(validate_entry(ENTRY))
 
 
